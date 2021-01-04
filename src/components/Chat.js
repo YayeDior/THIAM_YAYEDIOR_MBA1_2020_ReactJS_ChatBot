@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import AppBar from 'material-ui/AppBar';
-import Footer from './Footer';
+import Bas from './Bas';
 import Dialog from './Dialog';
 
 export default class App extends Component {
@@ -14,7 +14,7 @@ export default class App extends Component {
                 <Dialog />
             </div>
             <div className="container-fluid" style={{height: "20%"}}>
-                <Footer />
+                <Bas />
             </div>
         </div>;
     }
